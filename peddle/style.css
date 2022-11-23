@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Tapestry&display=swap');
+*{
+    font-family: 'Oxygen', sans-serif;
+    background-color: #111;
+}
+html{
+    font-size: 62.5%;
+}
+/*Navigation section */
+.navigation-section
+{
+    padding: 2.4rem 6.4rem;
+    /* background-color: #111; */
+}
+.navbar-brand
+{
+    font-size: 42px;
+    font-weight: 700;
+}
+.nav-link,.btn-font
+{
+    font-size: 17px!important;
+}
+.navbar-toggler
+{
+    border: 5px solid #111;
+}
+.stroke
+{
+    color: #ffc107;
+}
+/*hero section */
+.containers
+{
+    /* height:110vh; */
+    /* background-color: #111; */
+    padding: 1.6rem 6.4rem;
+}
+.main-heading
+{
+    font-size: 3.6rem;
+    color: #fff;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: .005rem;
+}
+.main-description
+{
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: .05rem;
+    margin: 3.2rem 0; 
+}
+.btn
+{
+    font-size: 1.2rem;
+    margin-right: 1.6rem;
+    border-radius: 5px;
+}
+.navbar
+{
+    position: relative;
+}
+
+/*featured image */
+.features
+{
+    /* background-color: #111; */
+    padding: 9.6rem 0;
+}
+.feature-img
+{
+    width: 24%;
+}
+.featured-text
+{
+    font-size: 3.6rem;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+/* advertisement section */
+.advertisement
+{
+    padding: 1.6rem 3rem;
+    /* background-color: #111; */
+    color: #fff;
+}
+.advertisement-heading
+{
+    font-size: 3.4rem;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: .010rem;
+    margin-bottom: 3.2rem;
+}
+.advertisement-details
+{
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.7;
+    letter-spacing: .08rem;
+    margin-bottom: 4.8rem;
+}
+
+/*included-section */
+.included-section
+{
+
+    padding: 9.6rem 3.2rem;
+}
+.included-heading
+{
+    font-size: 1.8rem;
+    letter-spacing: .15rem;
+    font-weight: 900;
+}
+.included-question
+{
+    font-size: 1.6rem;
+    margin-bottom: 3.6rem;
+}
+.included-details-section
+{
+    color: #fff;
+    background-color: #111;
+}
+.checkout-img
+{
+    width: 50%;
+}
+.card-headeing
+{
+    font-size: 1.8rem;
+    font-weight: 700;
+
+}
+#accordionExample,.accordion
+{
+    border: none;
+}
+.btn{
+    padding: 2.4rem 1.15rem;
+}
+.card-body
+{
+    font-size: 1.6rem;
+}
+.border-2
+{
+    border: 8px solid #111;
+    border-radius: 10px;
+}
+
+/*signup section*/
+.signup
+{
+    background-color: #111;
+    padding: 1.6rem 2.4rem;
+}
+.container-signup
+{
+    padding: 3.6rem 2.4rem;  
+    border-radius: 20px; 
+
+}
+.container-signup,.back,.start-selling,.description   {
+    background-image: linear-gradient(to right,#e5d6e3,#c5ecfe);
+}
+.start-selling
+{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.description
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 1.2rem 0;
+}
+.signup-btn
+{
+    padding: 1.2rem;
+}
+
+/*customer stories section */
+.customer-stories
+{
+    padding:9.6rem 2.4rem;
+    
+}
+.story-heading
+{
+    color: #666;
+    font-size: 1.4rem;
+    font-weight: 900;
+    letter-spacing: .12rem;
+}
+.story-desc
+{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: .12rem;
+    padding: 2.4rem 0 .5rem;
+}
+.carousel
+{
+    padding: 6.4rem 5.2rem;
+    
+}
+.carousel-text
+{
+    color: #fff;
+    font-size: 1.3rem;
+}
+.customer-name
+{
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+.cust-img
+{
+    width: 12rem;
+    margin-left: -1.6rem;
+}
+
+/*resource section */
+.resourses-section
+{
+    padding: 4.8rem;
+}
+.b{
+border: 2px solid #fff;
+padding: 1.2rem 2.4rem;
+}
+.res-img
+{
+    width: 100%;
+    margin-top: 4.4rem;
+    border-radius: 10px;
+}
+.text{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 2.4rem;
+}
+
+/*footer section */
+.footer-section
+{
+    padding: 2rem;
+}
+.footer-ul
+{
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: -3.2rem;
+}
+.social-media-section
+{
+    margin-top: 2.4rem;
+}
+.footer-li
+{
+    padding-bottom: 1.6rem;
+}
+.fa-brands
+{
+    margin-right: 1.2rem;
+}
+.platform
+{
+    color: #777;
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+.update
+{
+    font-size: 1.8rem;
+    margin-bottom: 2.4rem;
+    margin-left: .2rem;
+}
+.abc{
+    margin-top: 2.4rem;
+    padding: 0 1.2rem;
+}
+/*copyright */
+.copy
+{
+    background-color: #111;
+    color: #777;
+    text-align: center;
+    padding: 2.4rem;
+}
